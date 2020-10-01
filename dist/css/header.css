@@ -1,0 +1,53 @@
+header {
+    background-color: #ffd4db;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0px auto;
+    padding: 6px 0px;
+    font-size: 25px;
+    color: #000080;
+}
+
+.header-content > * {
+    width: 20%;
+}
+
+.left-header {
+    font-family: Josefin-bold;
+    font-size: 20px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+
+.left-header:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.header-socials {
+    display: flex;
+    justify-content: center;
+}
+
+.header-socials > *:hover{
+    color: white;
+}
+
+.center-social {
+    margin: 0px 15%;
+}
+
+.right-header {
+    text-align: right;
+}
+
+.right-header > i:hover {
+    color: white;
+    cursor: pointer;
+}

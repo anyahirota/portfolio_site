@@ -1,0 +1,16 @@
+body {
+    font-family: Josefin;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+.main-content {
+    height: 100%;
+}
