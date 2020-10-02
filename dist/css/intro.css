@@ -1,21 +1,21 @@
 .intro {
     padding-top: 40px;
-    height: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-grow: 1; 
     box-sizing: border-box;
+    border-bottom: 20px solid lightblue;
 }
 
 .left-intro {
+    flex-grow: 9999;
     width: 40%;
     min-width: 400px;
-    height: 100%;
-    max-height: 100%;
+    height: 600px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .left-intro-content {
@@ -31,7 +31,7 @@
 .profile-pic-container {
     margin-top: 130px;
     width: 80%;
-    height: 70%; 
+    height: 65%; 
     border: solid 5px darkblue;
     display: flex;
     justify-content: center;
@@ -40,8 +40,9 @@
 }
 
 .profile-pic-container > img {
-    width: 85%;
-    height: 85%;
+    width: 90%;
+    height: 90%;
+    max-width: 500px;
     object-fit: cover;
 }
 
@@ -69,9 +70,64 @@
 .right-intro {
     width: 60%;
     min-width: 400px;
-    height: 100%;
+    height: 600px;
     background-color: darkblue;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.right-intro-content {
+    height: 85%;
+    width: 85%; 
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.right-intro-content > h1 {
+    position: absolute;
+    font-family: Josefin-bold;
+    font-size: 60px;
+    color: lightblue;
+    border-bottom: 5px solid lightblue;
+    top: -10px; 
+}
+
+.right-intro-content > div {
+    margin-top: 15px;
+    color: darkblue;
+    height: 65%;
+    width: 75%; 
+    font-size: 34px;
+    text-align: center;
+    line-height: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info-title {
+    font-family: Josefin-bold;
+    margin: 30px 0px ;
+    color: lightblue;
+    border-bottom: 5px solid lightblue;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.contact-info > :first-child {
+    margin-right: 15px;
+    font-family: Josefin-semibold;
+}
 
