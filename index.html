@@ -11,22 +11,31 @@
     <link rel="stylesheet" href="dist/css/intro.css">
     <link rel="stylesheet" href="dist/css/skills.css">
     <link rel="stylesheet" href="dist/css/projects.css">
+    <link rel="stylesheet" href="dist/css/resume.css">
+    <link rel="stylesheet" href="dist/css/footer.css">
     <script src="dist/main.js"></script>
 </head>
 <body>
+    <div class="sidebar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+    </div>
     <header>
         <div class="header-content">
-            <div class="left-header">ANYA HIROTA</div>
+            <div class="left-header"><a href="#about">ANYA HIROTA</a></div>
             <div class="header-socials">
                 <a href="https://www.linkedin.com/in/anya-hirota-59392560/"><i class="fab fa-linkedin-in"></i></a>
                 <a class="center-social" href="https://angel.co/u/anya-hirota"><i class="fab fa-angellist"></i></a>
                 <a href="https://github.com/anyahirota?tab=overview&from=2020-06-01&to=2020-06-18"><i class="fab fa-github"></i></a>
             </div>
             <div class="right-header">
-                <i class="fas fa-bars"></i>
+                <i id="sidebar-header-button" class="fas fa-bars"></i>
             </div>
         </div>
     </header>
+
     <div class="main-content">
         <div class="intro">
             <div class="left-intro">
@@ -37,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right-intro">
+            <div id="about" class="right-intro">
                 <div class="right-intro-content">
                     <h1>About Me</h1>
                     <div>                        
@@ -57,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
             <div class="skills-content">
                 <h1>Skills</h1>
                 <div class="skills-list">
@@ -103,7 +112,7 @@
                 </p>
             </div>
         </div>
-        <div class="skills projects">
+        <div id="projects" class="skills projects">
             <div class="skills-content projects-content">
                 <h1>Projects</h1>
                 <div class="project calcamper">
@@ -181,7 +190,27 @@
                 </div>
             </div>
         </div>
+        <div id="resume" class="resume skills">
+            <div class="skills-content resume-content">
+                <h1>Resume</h1>
+                <a class="download-res" href="dist/images/resume.pdf" download> Download</a>
+                <img src="dist/images/resumeimg.png" alt="">
+            </div>
+
+        </div>
+        <div class="footer">
+            <h1>Anya Hirota, full stack software engineer</h1>
+            <p>For more info about me, check out out my 
+                <a href="https://github.com/anyahirota?tab=overview&from=2020-06-01&to=2020-06-18">Github</a>, 
+                <a href="https://www.linkedin.com/in/anya-hirota-59392560/">LinkedIn</a>, 
+                or <a href="https://angel.co/u/anya-hirota">AngelList</a>.
+            </p>
+            <h2>Contact Info</h2>
+            <div>   
+                <p><span>Email:</span>  anyahirota@gmail.com</p>
+                <p> <span>Phone:</span>  +1 415 899 0667</p>
+            </div>
+        </div>
     </div>
-    <footer></footer>
 </body>
 </html>

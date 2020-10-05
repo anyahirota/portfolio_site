@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+}
+
+.footer > h1 {
+    font-family: Josefin-bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer > p {
+    margin-bottom: 15px;
+}
+
+.footer > p > a {
+    border-bottom: 1px solid white;
+}
+
+.footer > p > a:hover {
+   border-bottom: 3px solid white; 
+}
+
+.footer > h2 {
+    font-family: Josefin-bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer > div {
+    border: 5px solid white;
+    padding: 15px;
+}
+
+.footer > div > :first-child {
+    margin-bottom: 5px;
+}
+
+.footer > div > p > span {
+   font-family: Josefin-bold; 
+}

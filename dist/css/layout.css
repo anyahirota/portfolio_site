@@ -14,3 +14,31 @@ header {
 .main-content {
     height: 100%;
 }
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: lightblue;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+.sidebar > a {
+    margin-left: 15px;
+    width: 100%;
+    display: block;
+    color: darkblue;
+    font-family: Josefin-bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.sidebar > a:hover {
+    color: white;
+}

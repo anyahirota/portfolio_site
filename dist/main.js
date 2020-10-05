@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/index.js?");
+eval(" \n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n    \n    const sidebarButton = document.getElementById(\"sidebar-header-button\"); \n    sidebarButton.addEventListener(\"click\", openSideBar)\n\n    function openSideBar() {\n        document.querySelector(\".sidebar\").style.width = \"250px\";\n        document.querySelector(\".main-content\").style.marginRight = \"250px\";\n        sidebarButton.removeEventListener(\"click\", openSideBar); \n        sidebarButton.addEventListener(\"click\", closeSideBar); \n    }\n\n    function closeSideBar() {\n        document.querySelector(\".sidebar\").style.width = \"0\";\n        document.querySelector(\".main-content\").style.marginRight = \"0\";\n        sidebarButton.removeEventListener(\"click\", closeSideBar);\n        sidebarButton.addEventListener(\"click\", openSideBar); \n    }\n})\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

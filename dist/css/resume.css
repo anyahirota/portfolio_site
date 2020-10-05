@@ -1,0 +1,23 @@
+.resume-content > h1 {
+    width: 280px;
+}
+
+.download-res {
+    font-family: Josefin-bold;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    background: orange;
+    box-shadow: -7px 7px lightblue;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.download-res:hover {
+    border: 5px solid orange;
+    background-color: white;
+    color: orange;
+    padding: 3px;
+}
