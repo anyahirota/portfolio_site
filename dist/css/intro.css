@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     flex-grow: 1; 
     box-sizing: border-box;
-    border-bottom: 20px solid lightblue;
+    border-bottom: 15px solid lightblue;
 }
 
 .left-intro {
@@ -71,7 +71,7 @@
     width: 60%;
     min-width: 400px;
     height: 600px;
-    background-color: darkblue;
+    background-color: orange;
     flex-grow: 1;
     display: flex;
     justify-content: center;
