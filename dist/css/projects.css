@@ -3,8 +3,124 @@
 }
 
 .project {
-    width: 50%;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.project-info {
+    width: 60%;
+    min-width: 400px;
+    max-width: 500px;
     border: 5px solid darkblue;
-    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+}
+
+.project-img {
+    width: 85%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+
+.project-title {
+    font-family: Josefin-bold;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    background: orange;
+    box-shadow: -7px 7px lightblue;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    margin-bottom: 15px;
+}
+
+.project-links {
+    display: flex;
+    box-sizing: border-box;
+    height: 25px;
+    align-items: center;
+}
+
+.project-links > p {
+    margin: 0px 10px;
+}
+
+.project-links > a {
+    padding-top: 2px;
+    border-bottom: 1px solid darkblue;
+    box-sizing: border-box;
+}
+
+.project-links > a:hover {
+    border-bottom: 3px solid darkblue;
+    font-size: 17px;
+}
+
+.project:hover > .project-gif {
+    display: flex;
+}
+
+/* .project:hover > .project-info {
+    border-right: none;
+} */
+
+.project-gif {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 400px;
+    padding: 10px;
+    margin-left: 20px;
+    display: none;
+}
+
+.project-gif-img  {
+    height: auto;
+    width: 90%;
+}
+
+#mobile-gif {
+    height: auto;
+    width: 50%;
+}
+
+.project-tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: darkblue;
+    margin-bottom: 15px;
+}
+
+.project-tech > h2 {
+    width: 150px;
+    font-family: Josefin-bold;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    background: darkblue;
+    box-shadow: -7px 7px orange;
+    margin-bottom: 20px;
+}
+
+.project-tech > p {
+    text-align: center;
+
 }
